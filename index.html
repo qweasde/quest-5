@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Ознакомление</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body style="background-color: #350002;">
+    <div class="text" style="margin-top: 20px;">
+        <div class="header-text">
+            <div class="container">
+                <h1 style="margin: 0; font-size: 32px; font-family: 'Great Vibes'; font-weight: 200; color: #FFBABA;">
+                    Мамуль, c днем рождения!
+                </h1>
+                <p style="margin-top: 10px; width: 300px; font-family: 'Great Vibes'; font-size: 20px; color: #fff;">
+                    Конец бывает счастливым, люби и будь любимой!
+                </p>
+                <img class="cloud" src="img/oblako.svg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="audio-block">
+        <div class="container">
+            <div class="audio-btn-container">
+                <div class="audio-btn">
+                    <p>Прослушать голосовое</p>
+                    <svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.4252 0H9.59128C3.58228 0 0 3.689 0 9.877V24.106C0 30.311 3.58228 34 9.59128 34H23.4087C29.4177 34 32.9999 30.311 32.9999 24.123V9.877C33.0165 3.689 29.4342 0 23.4252 0ZM20.8994 19.941L18.7864 21.199L16.6733 22.457C13.9495 24.072 11.7208 22.746 11.7208 19.516V17V14.484C11.7208 11.237 13.9495 9.928 16.6733 11.543L18.7864 12.801L20.8994 14.059C23.6233 15.674 23.6233 18.326 20.8994 19.941Z" fill="#350002"/>
+                    </svg>
+                </div>
+                <audio id="voice-audio" src="audio/message.ogg"></audio>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок квиза (скрыт по умолчанию) -->
+    <div class="quest-block-quiz">
+        <div class="container">
+            <div class="quiz-content">
+
+                <div class="cups-game">
+
+                    <p class="cups-title">Где спрятано сердце?</p>
+
+                    <div class="cups">
+                        <div class="cup" data-id="0">
+                        <div class="under"></div>
+                        <div class="cup-body"></div>
+                        </div>
+
+                        <div class="cup" data-id="1">
+                        <div class="under"></div>
+                        <div class="cup-body"></div>
+                        </div>
+
+                        <div class="cup" data-id="2">
+                        <div class="under"></div>
+                        <div class="cup-body"></div>
+                        </div>
+                    </div>
+
+                    <p class="shuffle" onclick="startShuffle()">Перемешать</p>
+
+                    <p id="cups-result"></p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="steps">
+        <div class="container">
+            <div class="steps-content">
+                <p>Финал</p>
+                <img src="img/1-5.svg" alt="">
+            </div>
+        </div>
+        <img class="bouquet" src="img/bouquet.png" alt="">
+    </div>
+</div>
+    
+
+<script src="script.js"></script> 
+</body>
+
+</html>
